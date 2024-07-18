@@ -17,6 +17,7 @@ const Dropdown = () => {
     if (selectedItem) {
       setSelectedItem(null);
     }
+    setIsOpen(false);
   };
   
   const handleItemClick = (item) => {
@@ -53,7 +54,6 @@ const Dropdown = () => {
           ))}
 
             <button 
-              
               onClick={handleReset}
               className={`reset-btn ${selectedItem ? 'active' : 'inactive'}`}
               disabled={!selectedItem}
