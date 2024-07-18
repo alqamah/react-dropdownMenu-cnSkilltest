@@ -1,6 +1,9 @@
 .App {
   text-align: center;
   margin: 20px;
+  display: flex;
+  height: 90vh;
+  overflow: hidden;
 }
 
 
@@ -16,13 +19,30 @@
 }
 
 .App-header {
+  padding-left: 30px;
   min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white
+  border-left: solid 20px black;
+  color: rgba(255, 255, 255, 0.93);
+  transition: .2s ease-in-out;  
+}
+.App-header:hover{
+  border-left: solid 2px rgb(12, 12, 12);
+}
+h4{
+  color: rgba(255, 255, 255, 0.582);
+  font-weight: 200;
+}
+h5{
+  color: rgba(255, 255, 255, 0.582);
+  font-weight: 200;
+  letter-spacing: 1px;
+  font-size: 18px;
 }
 
 .App-link {
