@@ -9,15 +9,13 @@ function App() {
     <div className="App">
       <Dropdown/>
       <div className='App-header'>
-        <p>
-          simple dropdown component using React.js
-        </p>
         <h4>
           Coding Ninjas React Skilltest
         </h4>
-        <h5>
-          by Alqama Hasnain
-        </h5>
+        <p>
+          simple dropdown component using React.js
+        </p>
+        <a title= "GitHub" href='https://github.com/alqamah'><h5>by Alqama Hasnain</h5></a>
       </div>
     </div>
   );

@@ -19,7 +19,7 @@
 }
 
 .App-header {
-  padding-left: 30px;
+  padding-left: 20px;
   min-height: 100vh;
   font-family: Arial, Helvetica, sans-serif;
   text-align: left;
@@ -28,26 +28,27 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   border-left: solid 20px black;
-  color: rgba(255, 255, 255, 0.93);
+  color: rgba(255, 255, 255, 0.582);
   transition: .2s ease-in-out;  
 }
 .App-header:hover{
   border-left: solid 2px rgb(12, 12, 12);
 }
 h4{
-  color: rgba(255, 255, 255, 0.582);
+  color: rgba(255, 255, 255, 0.737);
   font-weight: 200;
+  font-size: 25px;
 }
 h5{
   color: rgba(255, 255, 255, 0.582);
   font-weight: 200;
-  letter-spacing: 1px;
-  font-size: 18px;
+  width: 100px;
+  letter-spacing: 2px;
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
 }
 
-.App-link {
-  color: rgb(112, 76, 182);
-}
 
 @keyframes App-logo-float {
   0% {

@@ -1,8 +1,10 @@
 h3{
-  color: rgba(255, 255, 255, 0.582);
+  color: rgba(255, 255, 255, 0.736);
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-weight: 200;
+  text-shadow: rgb(0, 0, 0) 0px 0px 10px;
 }
+
 .dropdown {
   position: relative;
   display: inline-block;
@@ -12,9 +14,13 @@ h3{
   display: flex;
   margin: 20px;
   flex-direction: column;
-  background-color: rgba(22, 22, 22, 0.754);
+  background-color: rgba(15, 15, 15, 0.754);
   width: fit-content;
   border-radius: 20px;
+  transition: border .6s ease-in-out;
+}
+.dropdown-container:hover{
+  border: solid 1px rgb(66, 66, 66);
 }
 
 .dropdown-toggle {
@@ -45,6 +51,7 @@ h3{
   border-radius: 15px;
   overflow: hidden;
   padding: 5px;
+  box-shadow: rgb(24, 24, 24) 0px 10px 10px 5px;
 }
 
 .dropdown-item {
