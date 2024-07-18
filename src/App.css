@@ -42,7 +42,14 @@
   letter-spacing: 3px;
   word-spacing: 3px;
   font-size: 20px;
+  padding: 20px 20px 20px 100px;
+  margin-left: -90px;
   text-decoration: none;
+  border-radius: 10px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  background-color: rgb(11, 11, 11);
+  transition: border 1s ease-in-out;
 }
 
 h4{
@@ -61,6 +68,12 @@ h5{
   color: white;
   text-decoration: none;
 }
+.dropdown-container:hover ~ .App-header p {
+  border: solid 1px rgb(66, 66, 66);
+  border-left: none;
+  transition: ease-in-out;
+}
+
 
 
 @keyframes App-logo-float {

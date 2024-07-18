@@ -16,14 +16,15 @@ h3{
   display: flex;
   margin: 20px;
   flex-direction: column;
-  background-color: rgba(15, 15, 15, 0.754);
+  background-color: rgb(11, 11, 11);
   width: fit-content;
   border-radius: 20px;
-  transition: border .6s ease-in-out;
+  transition: border 0s ease-in-out;
 }
 .dropdown-container:hover{
   border: solid 1px rgb(66, 66, 66);
 }
+
 
 .dropdown-toggle {
   background-color: aliceblue;
