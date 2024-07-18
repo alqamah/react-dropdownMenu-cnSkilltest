@@ -34,17 +34,21 @@
 .App-header:hover{
   border-left: solid 2px rgb(12, 12, 12);
 }
+.App-header a{
+  width: fit-content;
+}
+
 h4{
   color: rgba(255, 255, 255, 0.737);
-  font-weight: 200;
+  font-weight: 100;
   font-size: 25px;
 }
 h5{
   color: rgba(255, 255, 255, 0.582);
   font-weight: 200;
-  width: 100px;
-  letter-spacing: 2px;
-  font-size: 30px;
+  width: 150px;
+  letter-spacing: 3px;
+  font-size: 35px;
   color: white;
   text-decoration: none;
 }

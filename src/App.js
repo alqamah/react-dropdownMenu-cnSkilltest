@@ -15,7 +15,7 @@ function App() {
         <p>
           simple dropdown component using React.js
         </p>
-        <a title= "GitHub" href='https://github.com/alqamah'><h5>by Alqama Hasnain</h5></a>
+        <a title= "GitHub" href='https://github.com/alqamah'><h5> by Alqama Hasnain</h5></a>
       </div>
     </div>
   );
