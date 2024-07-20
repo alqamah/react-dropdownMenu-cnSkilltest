@@ -21,10 +21,6 @@ h3{
   border-radius: 20px;
   transition: border 0s ease-in-out;
 }
-.dropdown-container:hover{
-  border: solid 1px rgb(66, 66, 66);
-}
-
 
 .dropdown-toggle {
   background-color: aliceblue;
@@ -44,6 +40,7 @@ h3{
 .dropdown-toggle:hover {
   box-shadow: none;
   background-color: white;
+  transform: translateY(5px);
 }
 
 .dropdown-menu {

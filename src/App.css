@@ -6,7 +6,6 @@
   overflow: hidden;
 }
 
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -49,11 +48,10 @@
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0px;
   background-color: rgb(11, 11, 11);
-  transition: border 1s ease-in-out;
 }
 
 h4{
-  color: rgba(231, 183, 255, 0.737);
+  color: rgb(231, 183, 255);
   font-weight: 400;
   max-width: 400px;
   text-transform: uppercase;
@@ -71,19 +69,10 @@ h5{
 .dropdown-container:hover ~ .App-header p {
   border: solid 1px rgb(66, 66, 66);
   border-left: none;
-  transition: ease-in-out;
+  transition: .5s ease-in-out;
+
 }
-
-
-
-@keyframes App-logo-float {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
+.dropdown-container:hover{
+  border: solid 1px rgb(66, 66, 66);
+  transition: .5s ease-in-out;
 }
